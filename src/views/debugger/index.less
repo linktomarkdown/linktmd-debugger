@@ -1,0 +1,65 @@
+.__debugger_hover__ {
+    position: fixed;
+    top: 200px;
+    right: -80px;
+    z-index: auto
+}
+
+.__debugger_drawer__ {
+    height: 96% !important;
+    top: 2% !important;
+    border-radius: 4px 0 0 4px !important;
+    position: relative;
+}
+
+.__debugger_router_center__ {
+    margin-left: 6px;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.__debugger_card__ {
+    background-color: #f2f3f5;
+    padding: 20px;
+    border-radius: 6px;
+    max-height: 400px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+
+    .arco-timeline-alternate.arco-timeline-direction-horizontal {
+        min-height: 120px;
+    }
+
+    .arco-card {
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.__debugger_relink__ {
+    position: absolute;
+    bottom: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 40px);
+}
