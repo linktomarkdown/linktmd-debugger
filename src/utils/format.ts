@@ -13,7 +13,12 @@ export const formatCreateElement = () => {
 export const formatCreateGlobalConstant = () => {
     (window as any)['__para_pub_debugger__'] = {
         version: '2.38.1',
-        gw_list: ['http://192.168.7.27']
+        gw_list: [
+            'http://192.168.7.27',
+            'http://192.168.7.24',
+            'http://192.168.2.83:10000',
+            'http://172.16.0.167:10000'
+        ]
     }
     return (window as any)['__para_pub_debugger__'];
 }
